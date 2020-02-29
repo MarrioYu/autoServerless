@@ -10,20 +10,7 @@ const  Path = require("path");
 
 const  HealthCheckController = require("./app/js/HealthCheckController");
 
-  app.get('/user/:user_id/tag', controller.getUserTags);
-
-  app.post('/user/:user_id/tag', controller.createTag);
-
-  app.post('/user/:user_id/tag/:tag_id/rename', controller.renameTag);
-
-  app.del('/user/:user_id/tag/:tag_id', controller.deleteTag);
-
-  app.post('/user/:user_id/tag/:tag_id/project/:project_id', controller.addProjectToTag);
-
-  app.del('/user/:user_id/tag/:tag_id/project/:project_id', controller.removeProjectFromTag);
-
-  app.del('/user/:user_id/project/:project_id', controller.removeProjectFromAllTags);
-
+/*
   app.get('/status', function(req, res) {
     return res.send('tags sharelatex up');
   });
@@ -40,6 +27,7 @@ const  HealthCheckController = require("./app/js/HealthCheckController");
       }
     });
   });
+*/
 
 function testLocally(params = {}) {
   let user_id = params.user_id || "5620bece05509b0a7a3cbc62";
