@@ -15,11 +15,11 @@
         doneFlag = true;
       });
       while (doneFlag === false) {
-        setTimeout(100);
+        setTimeout(function(){},100);;
       };
       return {result: result, pass: pass};
     },
-    createTag: function(user_id, name,) {
+    createTag: function(user_id, name) {
       logger.log({
         user_id: user_id,
         tag_id: tag_id,
@@ -38,7 +38,7 @@
       doneFlag = true;
       });
       while (doneFlag === false) {
-        setTimeout(100)
+        setTimeout(function(){},100);
       }
       return {result: result, pass: pass};
     },
@@ -59,7 +59,7 @@
         doneFlag = true;
       });
       while (doneFlag === false) {
-        setTimeout(100)
+        setTimeout(function(){},100);
       }
       return {result: result, pass: pass};
     },
@@ -80,7 +80,7 @@
         doneFlag = true;  
       });
       while (doneFlag === false) {
-        setTimeout(100)
+        setTimeout(function(){},100);
       }
       return {result : result, pass:  pass}
     },
@@ -99,11 +99,11 @@
         doneFlag = true;
       });
       while (doneFlag === false) {
-        setTimeout(100)
+        setTimeout(function(){},100);
       }
       return {result: result, pass: pass};
     },
-    renameTag: function(user_id, tag_id,name,) {
+    renameTag: function(user_id, tag_id,name) {
       logger.log({
         user_id: user_id,
         tag_id: tag_id,
@@ -120,7 +120,7 @@
         doneFlag = true;
       });
       while (doneFlag === false) {
-        setTimeout(100)
+        setTimeout(function(){},100);
       }
       return {result: result, pass: pass};
     },
@@ -137,7 +137,7 @@
       });
       //sleep();
       while (doneFlag === false) {
-        setTimeout(100)
+        setTimeout(function(){},100);
       }
       return {result: result, pass: pass};
     }
