@@ -34,7 +34,7 @@
     "grunt-forever": "~0.4.4",
     "grunt-mocha-test": "~0.10.2",
     "grunt-shell": "~0.7.0",
-    "request": "~2.34.0",
+    "request": "~2.88.2",
     "sandboxed-module": "~0.3.0",
     "sinon": "~3.2.1"
   },
